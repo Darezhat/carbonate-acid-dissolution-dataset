@@ -25,10 +25,6 @@ The letter is the core sample, the digit the subvolume within it. Core A was tre
 
 Pore and throat radii, micrometres. Permeability, millidarcy. Capillary pressure, kilopascal. Porosity, saturation and relative permeability are fractions. Coordination number, tortuosity and formation factor are dimensionless. Contact angles in degrees.
 
-## RESOLUTION LIMIT
-
-The smallest pore radius reproducible in a correctly extracted network is 0.9 voxel, that is 16.19 um at a voxel size of 18 um. In subvolumes B2 and D1 the 25th percentile before dissolution lies at that limit, so their apparent gain in this percentile reflects pores becoming resolvable rather than pores widening. Both are excluded from the statistics on the 25th percentile and are flagged in Fig3_Percentiles. The median and the 75th percentile lie well above the limit and use all eight subvolumes.
-
 ## PERMEABILITY SCALE CORRECTION
 
 The networks were passed to pnflow with lengths in millimetres, which the program read as metres. A factor of 1000 in length gives a factor of 10^6 in permeability, so the value written in the log is divided by 10^6. Both the raw and the corrected value are given in Table2_Pore_networks. The corrected values are the ones quoted in the manuscript.
